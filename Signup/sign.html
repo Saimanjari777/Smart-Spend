@@ -52,7 +52,9 @@
         </div>
         <div class="col-md-4">
           <label for="inputState" class="form-label">State</label>
-          <select id="inputState" class="form-select">
+          <select id="inputState" class="form-select"  onfocus='this.size=7;' 
+onblur='this.size=1;' 
+onchange='this.size=1; this.blur();'>
             <option selected>Choose</option>
             <option>Andhra Pradesh</option>
             <option>Arunachal Pradesh	</option>
